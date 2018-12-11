@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MaleMovement : MonoBehaviour {
 
+	
 	public float speedMove;
 	private Vector3 moveVector;
 	
@@ -20,6 +21,7 @@ public class MaleMovement : MonoBehaviour {
 private void Update()
 {
 	CharacterMove();
+	
 }
 
 private void CharacterMove()
