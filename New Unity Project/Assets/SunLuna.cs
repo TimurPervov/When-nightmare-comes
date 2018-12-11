@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class SunLuna : MonoBehaviour {
 
-        private float Speed=15.0f; //ОТНОШЕНИЕ 1 ГРАДУСА К ОДНОМУ TMIE = 1/4 БЛЯТЬ
+        private float Speed=5.0f; //ОТНОШЕНИЕ 1 ГРАДУСА К ОДНОМУ TMIE = 1/4 БЛЯТЬ
     public Text TextTime;
     public GameObject Centre; 
 public GameObject Stars;
@@ -34,7 +34,7 @@ if (m_LastCheck<0)
 {
 
 Centre.transform.Rotate(-1*Vector3.right*Speed);
-       tmie=tmie+60;
+       tmie=tmie+20;
        if (tmie >= 1440)
 	tmie = 0;
 	
